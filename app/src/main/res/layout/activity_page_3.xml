@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/orange"
+    tools:context=".page_3">
+
+    <TextView
+        android:id="@+id/txtvieww"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.456" />
+
+    <Button
+        android:id="@+id/gotoschool"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="#D67E3A"
+        android:textColor="@color/white"
+        android:text="ignore it and go to school"
+        app:layout_constraintEnd_toEndOf="@+id/pet"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="@+id/pet"
+        app:layout_constraintTop_toBottomOf="@+id/pet" />
+
+    <Button
+        android:id="@+id/pet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#D67E3A"
+        android:textColor="@color/white"
+        android:text="pet "
+        app:layout_constraintEnd_toEndOf="@+id/txtvieww"
+        app:layout_constraintStart_toStartOf="@+id/txtvieww"
+        app:layout_constraintTop_toBottomOf="@+id/txtvieww" />
+</androidx.constraintlayout.widget.ConstraintLayout>
